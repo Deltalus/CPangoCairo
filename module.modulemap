@@ -1,0 +1,10 @@
+module CPangoCairo [system] {
+  header "/usr/include/pango-1.0/pango/pango.h"
+  header "/usr/include/pango-1.0/pango/pangocairo.h"
+
+  link "pango-1.0"
+  link "pangocairo-1.0"
+
+
+  export *
+}
